@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34934985/README.md)
 # Aesthetic Fitness Mendoza – sitio web
 
 Sitio estático (HTML, CSS y JavaScript, sin dependencias ni compilación).
