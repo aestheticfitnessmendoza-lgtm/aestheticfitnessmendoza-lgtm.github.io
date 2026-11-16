@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aesthetic Fitness Mendoza</title>
+<link rel="icon" href="media/logo.jpg">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poppins:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top bleed">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Aesthetic Fitness, inicio"><img src="media/logo.jpg" alt="" width="38" height="38"><span>Aesthetic<span style="color:var(--ink)"> Fitness</span></span></a>
+    <nav class="links" aria-label="Secciones"><a href="index.html" class="on" aria-current="page">Inicio</a><a href="servicios.html">Servicios</a><a href="nosotros.html">Nosotros</a></nav>
+    <a class="btn wa sm" data-wa="Hola! Quiero pedir un turno." target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9.5L5 20v-4H4z"/></svg>WhatsApp</a>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Mendoza · Entrenamiento y estética</p>
+        <h1>¿Te pasa que <span class="rot" id="rot" aria-live="polite">no tenés tiempo para entrenar</span></h1>
+        <p class="lead">Tenemos el servicio para resolverlo. Nos contás tu objetivo y armamos el plan con vos, a tu horario.</p>
+        <a class="mas" id="rotMas" href="servicios.html#electrofitness">Ver cómo lo resolvemos →</a>
+        <div class="cta">
+          <a class="btn wa" data-wa="Hola! Quiero pedir un turno." target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9.5L5 20v-4H4z"/></svg>Pedir turno por WhatsApp</a>
+          <a class="btn ghost" href="servicios.html">Ver servicios</a>
+        </div>
+        <ul class="chips"><li>Clase de prueba</li><li>Profe particular</li><li>Turnos a tu horario</li></ul>
+      </div>
+      <div class="stage">
+        <div class="arch" id="heroMedia"></div>
+        <div class="seal" aria-hidden="true">
+          <svg viewBox="0 0 132 132"><defs><path id="circ" d="M66 66 m-52 0 a52 52 0 1 1 104 0 a52 52 0 1 1 -104 0"/></defs><text font-family="Poppins,sans-serif" font-size="11" font-weight="600" fill="#065190"><textPath href="#circ" textLength="320" lengthAdjust="spacing">9 AÑOS CUIDÁNDOTE · EN MENDOZA ·</textPath></text></svg>
+          <b>9</b>
+        </div>
+        <div class="float">Clase de prueba</div>
+      </div>
+    </div>
+  </section>
+  <div class="tape bleed" aria-hidden="true"><div class="track" id="tape"></div></div>
+  <section id="servicios">
+    <div class="wrap">
+      <p class="eyebrow">Servicios</p>
+      <h2>Elegí según lo que querés resolver</h2>
+      <p class="lead">Cada tratamiento apunta a un objetivo distinto. Si dudás cuál te conviene, escribinos y te orientamos.</p>
+      <div class="grid" id="svcGrid"></div>
+    </div>
+  </section>
+  <section class="turno" id="turnos">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Turnos</p>
+        <h2>Pedí tu turno en un minuto</h2>
+        <p class="lead">Completás tres datos y se abre WhatsApp con el mensaje listo. Te respondemos con los horarios disponibles.</p>
+        <ol class="steps"><li><b>1</b><p>Elegí el servicio que te interesa.</p></li><li><b>2</b><p>Contanos en qué franja del día te queda cómodo.</p></li><li><b>3</b><p>Enviá el mensaje y coordinamos tu primera visita.</p></li></ol>
+      </div>
+      <form class="form" id="turnoForm" autocomplete="off">
+        <label for="fNombre">Tu nombre<input id="fNombre" type="text" placeholder="Nombre y apellido"></label>
+        <label for="fServicio">Servicio<select id="fServicio"></select></label>
+        <label for="fFranja">Franja que te queda mejor<select id="fFranja"><option>Mañana</option><option>Mediodía</option><option>Tarde</option><option>Noche</option></select></label>
+        <a class="btn" id="fEnviar" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9.5L5 20v-4H4z"/></svg>Enviar por WhatsApp</a>
+      </form>
+    </div>
+  </section>
+  <section class="ig" id="instagram">
+    <div class="wrap">
+      <div class="head">
+        <div><p class="eyebrow">Instagram</p><h2>Seguinos en Instagram</h2><p class="lead">Mirá clases, tratamientos y novedades en @aestheticfitnessmendoza. Tocá cualquier imagen para verla en Instagram.</p></div>
+        <a class="btn" id="igBtn" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r=".8" fill="currentColor"/></svg>Abrir Instagram</a>
+      </div>
+      <div class="tiles" id="tiles"></div>
+      <p class="livetag" id="livetag" hidden><i></i>Últimas publicaciones, actualizadas automáticamente</p>
+    </div>
+  </section>
+  <section class="where" id="ubicacion">
+    <div class="wrap">
+      <p class="eyebrow" style="color:var(--on-brand);opacity:.8">Dónde estamos y horarios</p>
+      <h2>Te esperamos en Mendoza</h2>
+      <div class="cols">
+        <div><h3>Dirección</h3><p id="dir"></p><p id="mapa"></p></div>
+        <div><h3>Horarios</h3><p id="hor"></p></div>
+        <div><h3>Escribinos</h3><p><a id="waLink" target="_blank" rel="noopener noreferrer">WhatsApp</a></p><p><a id="mail"></a></p><p><a id="igLink" target="_blank" rel="noopener noreferrer">@aestheticfitnessmendoza</a></p></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="bleed"><div class="wrap"><span>Aesthetic Fitness · Martínez de Rosas 755, Mendoza</span><span><a href="index.html">Inicio</a> · <a href="servicios.html">Servicios</a> · <a href="nosotros.html">Nosotros</a></span></div></footer>
+<a class="fab" data-wa="Hola! Quiero info." target="_blank" rel="noopener noreferrer" aria-label="Escribinos por WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9.5L5 20v-4H4z"/></svg><span>Escribinos</span></a>
+<script src="app.js"></script>
+</body>
+</html>
