@@ -10,6 +10,7 @@ const CONFIG = {
   heroVideo: "media/sesion.mp4",   // video vertical corto
   heroPoster: "media/sesion.jpg",
   heroFoto: "",
+  fotos: {},
   /* Feed de Instagram en vivo. Pegar acá la URL JSON del feed:
      - Un servicio como Behold (conecta la cuenta y entrega una URL pública), o
      - un endpoint propio que consulte la API de Instagram con el token guardado en el servidor.
